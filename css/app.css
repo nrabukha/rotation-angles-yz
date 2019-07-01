@@ -1,0 +1,140 @@
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+body button {
+    border-radius: 3px;
+    background-color: #ffffff;
+    background-size: 12px 12px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.main{
+    background: #305e69;
+    width: 74%;
+    margin: 0 13%;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.4);
+}
+
+body>div:first-child {
+    background: white;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#window-3d-view {
+    height: 60%;
+    position: relative;
+    top: 5px;
+    margin-bottom: 3%;
+}
+
+
+#window-3d-view div {
+    width: 96%;
+    height: 96%;
+    position: relative;
+    top: 2%;
+    left: 2%;
+}
+
+.input-panel{
+    width: 96%;
+    margin-left: 2%;
+}
+
+.default-position{
+   float: left;
+   width: 50%;
+}
+
+.default-position>div:first-child{
+    background: #c7ceff;
+    padding: 50px 0px;
+}
+
+.title-new-position{
+    background: #8aa9ad;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+    }
+
+.new-position>div:first-child {
+    padding: 10px 0px;
+    background: white;
+}
+
+.new-position>div:last-child {
+    background: #8aa9ad;
+    padding-bottom: 10px;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+}
+
+.default-position>div:last-child{
+   background: #81c4de;
+   padding: 5px 0px;
+}
+
+.input-panel input {
+    width: 15%;
+}
+
+.new-position span {
+    margin-left: 11.3%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#rotation-angles-button, #reset-x-y-z {
+    margin: 10px 0px;
+    height: auto;
+    width: auto;
+}
+
+#clear-position-x-y-z{
+    margin-top: 1%;
+    height: auto;
+    width: auto;
+}
+
+
+#control-rotation {
+    text-align: center;
+}
+
+#result div {
+    background: #ececec;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#result span {
+    font-size: 13px;
+}
+
+.result-title {
+    font-weight: bold;
+    margin-left: 30px;
+}
