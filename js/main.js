@@ -3,7 +3,7 @@ const newPositionX = document.getElementById('new-position-x');
 const newPositionY = document.getElementById('new-position-y');
 const newPositionZ = document.getElementById('new-position-z');
 
-const window3DView = document.getElementById('window-3d-view').childNodes[0];
+const window3DView = document.getElementById('window-3d-view').firstElementChild;
 
 const rotationAnglesButton = document.getElementById('rotation-angles-button');
 const clearPositionXYZ = document.getElementById('clear-position-x-y-z');
@@ -92,6 +92,8 @@ renderer.setClearColor(0xc9c9c9);
 renderer.setSize(window3DView.offsetWidth, window3DView.offsetHeight);
 renderer.shadowMap.enabled = true;
 renderer.shadowMapSoft = true;
+
+document.querySelector('.main').style.height = 'auto';
 
 window3DView.appendChild(renderer.domElement);
 
