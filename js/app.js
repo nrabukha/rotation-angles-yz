@@ -116,8 +116,6 @@ class MathFormulasForCoordinates extends Geometry3D {
 
 }
 
-// let newVertex = [-5.06309, 5.06309, -6.74608];
-
 const findPriorRotationAngles = (newPoint) => {
    const rotationAngles = {};
 
